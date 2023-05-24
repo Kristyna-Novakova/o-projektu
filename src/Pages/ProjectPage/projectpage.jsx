@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import prototype from './img/prototype.png';
+import personLogin from './img/person.svg';
 
 export const ProjectPage = () => {
   return (
@@ -21,8 +22,12 @@ export const ProjectPage = () => {
           </p>
           <h2 className="section-title">Autorky projektu</h2>
           <ul>
-            <li>Kristýna Nováková</li>
-            <li>Linda Balounová</li>
+            <li>
+              <img src={personLogin} alt="ikonka osoby" /> Kristýna Nováková
+            </li>
+            <li>
+              <img src={personLogin} alt="ikonka osoby" /> Linda Balounová
+            </li>
           </ul>
           <h2 className="section-title">Další informace</h2>
           <p>

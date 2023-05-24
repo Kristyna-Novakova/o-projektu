@@ -45,6 +45,20 @@
   text-transform: uppercase;
 }
 
+ul {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+li img {
+  width: 25px;
+}
+
 .link {
   color: #333;
   text-decoration: underline;
