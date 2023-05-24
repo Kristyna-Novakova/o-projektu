@@ -1,0 +1,35 @@
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(./img/logoSW.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 300;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.section-title {
+  color: #333;
+}
+
+.link {
+  color: #333;
+  text-decoration: underline;
+}
