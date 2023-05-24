@@ -1,2 +1,2 @@
 # o-projektu
-Představení závěrečného projektu Slow Wear
+Představení Czechitas závěrečného projektu. E-shop Slow Wear funguje jako půjčovna oblečení na principu měsíčního poplatku. Zákazníci si mohou každý měsíc vybrat 6 různých kousků oblečení, které po 30 dnech vrátí a objednají si další. Cílem projektu je pomoci zredukovat množství oblečení v našich skříních, které neunosíme, a tím podpořit udržitelnost a zodpovědný přístup k módnímu průmyslu.
