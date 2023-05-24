@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+
 .page {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+
 }
 
 .logo {
@@ -15,21 +19,37 @@
 .title {
   color: white;
   text-transform: uppercase;
+  font-size: 50px;
+  text-align: left;
+  font-family: "Castoro Titling", sans-serif;
 }
 
 .section-title {
   font-weight: 300;
+  font-size: 20px;
 }
 
 .content {
   margin-top: 30px;
+  background-color: rgb(233, 227, 227);
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: baseline;
+  gap: 45px;
 }
 
 .section-title {
-  color: #333;
+  color: grey;
+  text-transform: uppercase;
 }
 
 .link {
   color: #333;
   text-decoration: underline;
+}
+
+.prototypeImage img {
+  max-width: 450px;
 }
