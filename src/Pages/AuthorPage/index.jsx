@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { authors } from '../author-list';
+import './style.css';
 
 export const AuthorPage = () => {
   const { authorId } = useParams();
@@ -12,10 +13,17 @@ export const AuthorPage = () => {
 
   return (
     <div className="author-page">
+      <div className="textAboutAuthor">
+        {' '}
+        <h1>{authorDetail.name}</h1>
+        <h2>Informace o autorce</h2>
+        <p>{authorDetail.about}</p>
+        <p>Odkaz na další projekty:</p>
+        <a href={authorDetail.link} target="_blank">
+          GitHub
+        </a>
+      </div>
       <img src={authorDetail.picture} alt={authorDetail.name} />
-      <h1>{authorDetail.name}</h1>
-      <p>{authorDetail.about}</p>
-      <a href={authorDetail.link}>GitHub</a>
     </div>
   );
 };

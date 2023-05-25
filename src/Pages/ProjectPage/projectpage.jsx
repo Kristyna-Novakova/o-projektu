@@ -8,7 +8,6 @@ import personLogin from './img/person.svg';
 export const ProjectPage = () => {
   return (
     <div className="page">
-      <div className="logo" />
       <div className="content">
         <div className="text">
           <h1 className="title">Slow Wear</h1>
@@ -34,7 +33,7 @@ export const ProjectPage = () => {
           <p>
             Další informace o projektu a jeho funkcích můžete nalézt na GitHubu:
           </p>
-          <a href="odkaz_na_github" className="link">
+          <a href="odkaz_na_github" className="link" target="_blank">
             GitHub
           </a>
         </div>
