@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import { Outlet } from 'react-router-dom';
+import { authors } from '../author-list';
 import prototype from './img/prototype.png';
 import personLogin from './img/person.svg';
 
@@ -7,7 +9,6 @@ export const ProjectPage = () => {
   return (
     <div className="page">
       <div className="logo" />
-
       <div className="content">
         <div className="text">
           <h1 className="title">Slow Wear</h1>
@@ -22,12 +23,12 @@ export const ProjectPage = () => {
           </p>
           <h2 className="section-title">Autorky projektu</h2>
           <ul>
-            <li>
-              <img src={personLogin} alt="ikonka osoby" /> Kristýna Nováková
-            </li>
-            <li>
-              <img src={personLogin} alt="ikonka osoby" /> Linda Balounová
-            </li>
+            {authors.map((author) => (
+              <li key={author.id}>
+                <img src={personLogin} alt="ikonka osoby" />
+                <a href={`/${author.id}`}>{author.name}</a>
+              </li>
+            ))}
           </ul>
           <h2 className="section-title">Další informace</h2>
           <p>
@@ -41,6 +42,7 @@ export const ProjectPage = () => {
           <img src={prototype} alt="prototyp" />
         </div>
       </div>
+      <Outlet />
     </div>
   );
 };

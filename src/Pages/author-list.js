@@ -1,0 +1,18 @@
+export const authors = [
+  {
+    id: 'tyna',
+    name: 'Kristýna Nováková',
+    picture: '',
+    about:
+      'Jsem Týna a od narození mám v sobě cestovatelského červa. K programování jsem si našla cestu skrze svou předchozí práci v CoolPeople, kde jsem pracovala na pozici Content Marketing Specialist. Tak dlouho jsem psala pracovní nabídky pro ajťáky, až jsem se chtěla stát jednou z nich.',
+    link: 'https://github.com/Kristyna-Novakova',
+  },
+  {
+    id: 'linda',
+    name: 'Linda Balounová',
+    picture: '',
+    about:
+      'Jsem Linda, je mi 31, bydlím v Praze pátým rokem, předtím jsem žila rok ve Španělsku a dva roky v US, kde jsem pracovala jako au-pair. Pracuju jako office manager v online marketingový agentuře. Dělala jsem na technické podpoře a na HR oddělení v jednom start upu, ale taky jsem jednu sezónu létala a plnila si sen.',
+    link: 'https://github.com/lindabalounova1',
+  },
+];

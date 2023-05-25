@@ -1,13 +1,13 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './style.css';
 import { ProjectPage } from './Pages/ProjectPage/projectpage';
+import { AuthorPage } from './Pages/AuthorPage';
 
 const App = () => {
   return (
     <div className="container">
-      <ProjectPage />
       <footer>
         <p>Czechitas, Digitální akademie: Web</p>
       </footer>
@@ -18,13 +18,11 @@ const App = () => {
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-    children: [
-      {
-        path: '/',
-        element: <ProjectPage />,
-      },
-    ],
+    element: <ProjectPage />,
+  },
+  {
+    path: '/:authorId',
+    element: <AuthorPage />,
   },
 ]);
 
