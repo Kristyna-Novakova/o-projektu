@@ -3,39 +3,49 @@
 .author-page {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
   background-color: rgb(233, 227, 227);
-  gap: 45px;
+  border-radius: 25px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .author-page img {
-  max-width: 300px;
+  max-width: 320px;
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.textAboutAuthor {
+.about {
   text-align: center;
-  max-width: 600px;
+  width: 100%;
 }
 
 h1 {
   color: #333;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   font-family: "Castoro Titling", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
-.textAboutAuthor h2 {
+.about h2 {
   font-weight: 300;
   font-size: 20px;
   color: grey;
@@ -43,44 +53,53 @@ h1 {
   padding-top: 25px;
 }
 
-.textAboutAuthor p {
+.about p {
   color: #333;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-.textAboutAuthor a {
+.about a {
   background-color: #333;
   color: white;
   padding: 8px 20px;
   border-radius: 25px;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
-.textAboutAuthor a:hover {
+.about a:hover {
   background-color: #555;
 }
 
 @media (max-width: 768px) {
   .author-page {
-    padding: 10px;
+    padding: 30px;
   }
 
-  .textAboutAuthor h1 {
+  .author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  h1 {
     font-size: 30px;
   }
 
-  .textAboutAuthor h2 {
+  .about h2 {
     font-size: 16px;
   }
 
-  .textAboutAuthor p {
+  .about p {
     font-size: 14px;
   }
 
-  .textAboutAuthor a {
+  .about a {
     font-size: 14px;
     padding: 6px 15px;
   }
