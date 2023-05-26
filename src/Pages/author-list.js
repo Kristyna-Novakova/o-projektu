@@ -7,10 +7,10 @@ export const authors = [
     name: 'Kristýna Nováková',
     picture: kristynaNovakova,
     about:
-      'Jsem Týna a od narození mám v sobě cestovatelského červa. K programování jsem si našla cestu skrze svou předchozí práci v CoolPeople, kde jsem pracovala na pozici Content Marketing Specialist. Tak dlouho jsem psala pracovní nabídky pro ajťáky, až jsem se chtěla stát jednou z nich.',
+      'Jsem Týna a od narození mám v sobě cestovatelského červa. K programování jsem si našla cestu skrze svou předchozí práci v CoolPeople, kde jsem pracovala na pozici Content Marketing Specialist. Tak dlouho jsem psala pracovní nabídky pro ajťáky, až jsem tady.',
     github: 'https://github.com/Kristyna-Novakova',
     linkedin: 'https://www.linkedin.com/in/kristynanov/',
-    email: 'novakovakri@gmail.com',
+    email: 'novakovkri@gmail.com',
   },
   {
     id: 'linda',

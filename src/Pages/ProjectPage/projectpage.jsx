@@ -3,7 +3,7 @@ import './style.css';
 import { Outlet } from 'react-router-dom';
 import { authors } from '../author-list';
 import prototype from './img/prototype.png';
-import personLogin from './img/person.svg';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 export const ProjectPage = () => {
   return (
@@ -24,7 +24,7 @@ export const ProjectPage = () => {
           <ul>
             {authors.map((author) => (
               <li key={author.id}>
-                <img src={personLogin} alt="ikonka osoby" />
+                <BsFillPersonFill />
                 <a href={`/${author.id}`}>{author.name}</a>
               </li>
             ))}

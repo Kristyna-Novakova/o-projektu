@@ -6,13 +6,28 @@
   padding: 20px;
 }
 
+.author-page {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: rgb(233, 227, 227);
+  border-radius: 25px;
+}
+
 .title {
-  color: white;
+  color: #333;
   text-transform: uppercase;
-  font-size: 55px;
-  text-align: center;
+  font-size: 50px;
+  text-align: left;
   font-family: "Castoro Titling", sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 .section-title {
@@ -24,14 +39,18 @@
 }
 
 .content {
-  margin-top: 30px;
   background-color: rgb(233, 227, 227);
   border-radius: 25px;
-  padding: 40px;
+  padding: 45px;
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  align-items: center;
+  justify-content: center;
+  gap: 65px;
+  width: 100%;
+  margin: 0 auto;
 }
+
 
 ul {
   padding-left: 0;
@@ -56,14 +75,24 @@ li a {
   color: #555;
 }
 
+li a:hover {
+  color: grey;
+}
+
+.text {
+  padding-left: 20px;
+}
+
 .text p {
+  color: #333;
+  font-size: 16px;
   margin-bottom: 25px;
 }
 
 .link {
   background-color: #333;
   color: white;
-  padding: 10px 30px;
+  padding: 8px 30px;
   border-radius: 50px;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -74,9 +103,14 @@ li a {
   background-color: #555;
 }
 
+
+/* Picture of Prototype */
+
 .prototypeImage {
   display: flex;
   align-items: center;
+  padding-top: 20px;
+
 }
 
 .prototypeImage img {
@@ -88,10 +122,17 @@ li a {
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+
+/* Responsive Design */
+
+@media (min-width: 825px) {
   .content {
     flex-direction: row;
     align-items: flex-start;
+  }
+
+  .title {
+    font-size: 70px;
   }
 
   .prototypeImage img {
