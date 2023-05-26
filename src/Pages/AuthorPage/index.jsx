@@ -1,10 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { authors } from '../author-list';
 import './style.css';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
+import logoSW from './img/logoSW.png';
 
 export const AuthorPage = () => {
   const { authorId } = useParams();
@@ -16,6 +17,9 @@ export const AuthorPage = () => {
 
   return (
     <div className="author-page">
+      <Link to="/" className="home-link">
+        <img src={logoSW} alt="logo" />
+      </Link>
       <h1>{authorDetail.name}</h1>
       <div className="author-info">
         {' '}

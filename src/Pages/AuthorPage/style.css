@@ -13,10 +13,17 @@
   border-radius: 25px;
 }
 
+.home-link {
+  max-width: 125px;
+}
+
+
+
 .author-info {
   display: flex;
   flex-direction: row;
   align-items: center;
+
   gap: 50px;
   max-width: 800px;
   width: 100%;
@@ -32,7 +39,7 @@
 }
 
 .about {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
