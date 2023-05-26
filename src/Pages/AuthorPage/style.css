@@ -59,18 +59,33 @@ h1 {
   margin-bottom: 10px;
 }
 
-.about a {
-  background-color: #333;
-  color: white;
-  padding: 8px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-top: 20px;
+.about ul {
+  padding-left: 0;
+  list-style: none;
 }
 
-.about a:hover {
-  background-color: #555;
+.about li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about li a:hover {
+  color: #555;
+}
+
+.about li svg {
+  width: 20px;
+  height: 20px;
 }
 
 @media (max-width: 768px) {
@@ -99,8 +114,7 @@ h1 {
     font-size: 14px;
   }
 
-  .about a {
+  .about li {
     font-size: 14px;
-    padding: 6px 15px;
   }
 }
