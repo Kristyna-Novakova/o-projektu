@@ -33,7 +33,11 @@ export const ProjectPage = () => {
           <p>
             Další informace o projektu a jeho funkcích můžete nalézt na GitHubu:
           </p>
-          <a href="odkaz_na_github" className="link" target="_blank">
+          <a
+            href="https://github.com/Kristyna-Novakova/slow-wear"
+            className="link"
+            target="_blank"
+          >
             GitHub
           </a>
         </div>

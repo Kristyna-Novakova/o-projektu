@@ -13,12 +13,12 @@ export const AuthorPage = () => {
 
   return (
     <div className="author-page">
+      <h1>{authorDetail.name}</h1>
       <div className="textAboutAuthor">
         {' '}
-        <h1>{authorDetail.name}</h1>
         <h2>Informace o autorce</h2>
         <p>{authorDetail.about}</p>
-        <p>Odkaz na další projekty:</p>
+        <h2>Odkaz na další projekty:</h2>
         <a href={authorDetail.link} target="_blank">
           GitHub
         </a>
