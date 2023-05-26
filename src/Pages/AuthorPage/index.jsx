@@ -17,9 +17,14 @@ export const AuthorPage = () => {
 
   return (
     <div className="author-page">
-      <Link to="/" className="home-link">
-        <img src={logoSW} alt="logo" />
-      </Link>
+      <div className="header">
+        <Link to="/" className="logo-link">
+          <img src={logoSW} alt="logo" className="logo" />
+        </Link>
+        <Link to="/" className="home-link">
+          Zpět
+        </Link>
+      </div>
       <h1>{authorDetail.name}</h1>
       <div className="author-info">
         {' '}
