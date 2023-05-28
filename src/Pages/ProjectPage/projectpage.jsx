@@ -45,7 +45,6 @@ export const ProjectPage = () => {
           <img src={prototype} alt="prototyp" />
         </div>
       </div>
-      <Outlet />
     </div>
   );
 };

@@ -47,7 +47,7 @@
 }
 
 
-/* Text o autorce */
+/* About Author */
 .author-info {
   display: flex;
   flex-direction: row;
@@ -122,6 +122,9 @@ h1 {
   width: 20px;
   height: 20px;
 }
+
+
+/* Responsive Design */
 
 @media (max-width: 768px) {
   .author-page {

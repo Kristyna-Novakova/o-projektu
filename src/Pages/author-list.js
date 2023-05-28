@@ -17,7 +17,7 @@ export const authors = [
     name: 'Linda Balounová',
     picture: lindaBalounova,
     about:
-      'Jsem Linda, je mi 31, bydlím v Praze pátým rokem, předtím jsem žila rok ve Španělsku a dva roky v US, kde jsem pracovala jako au-pair. Pracuju jako office manager v online marketingový agentuře. Dělala jsem na technické podpoře a na HR oddělení v jednom start upu, ale taky jsem jednu sezónu létala a plnila si sen.',
+      'Jsem Linda, je mi 31, bydlím v Praze pátým rokem, předtím jsem žila rok ve Španělsku a dva roky v US, kde jsem pracovala jako au-pair. Pracuji jako Office Manager v online marketingové agentuře. Dělala jsem na technické podpoře a na HR oddělení v jednom start-upu, ale také jsem jednu sezónu létala a plnila si sen.',
     github: 'https://github.com/lindabalounova1',
     linkedin: 'https://www.linkedin.com/in/linda-balounova/',
     email: 'linda-balounova@instinct.ag',

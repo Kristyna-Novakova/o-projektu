@@ -27,14 +27,13 @@ export const AuthorPage = () => {
       </div>
       <h1>{authorDetail.name}</h1>
       <div className="author-info">
-        {' '}
         <div className="about">
           <h2>Informace o autorce</h2>
           <p>{authorDetail.about}</p>
           <h2>Odkaz na další projekty:</h2>
           <ul>
             <li>
-              <AiFillGithub />{' '}
+              <AiFillGithub />
               <a href={authorDetail.github} target="_blank">
                 GitHub
               </a>
@@ -47,7 +46,7 @@ export const AuthorPage = () => {
             </li>
             <li>
               <MdEmail />
-              <a href="mailto: {authorDetail.email}">{authorDetail.email}</a>
+              <a href={`mailto: ${authorDetail.email}`}>{authorDetail.email}</a>
             </li>
           </ul>
         </div>

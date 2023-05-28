@@ -51,6 +51,17 @@
   margin: 0 auto;
 }
 
+.text {
+  padding-left: 20px;
+}
+
+.text p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* Authors of the Project */
 
 ul {
   padding-left: 0;
@@ -79,15 +90,9 @@ li a:hover {
   color: grey;
 }
 
-.text {
-  padding-left: 20px;
-}
 
-.text p {
-  color: #333;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
+
+/* GitHub Button */
 
 .link {
   background-color: #333;
